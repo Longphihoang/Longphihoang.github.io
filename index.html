@@ -11,7 +11,7 @@
 
     }
     #caption{
-        font-size: 14pt;
+        font-size: 16pt;
 
     }
     h1{
@@ -29,15 +29,16 @@
         font-size:30px;
         font-family: Lobster,monospace;
     }
-
+    .projectImg
+    {
+        width: 200px;
+        height: 200px;
+    }
     .profileBorder{
-        border-width: 10px;
-        border-style: hidden;
-        border-radius: 50%;
         width: 200px;
     }
     p{
-        font-size:14px;
+        font-size:16px;
         font-family: Cabin;
         padding-left: 20px;
     }
@@ -51,7 +52,7 @@
 
 <body>
 <h1 class="text-center animated bounceInUp">Long Hoang</h1>
-<img src="headshot.jpg" class="profileBorder center-block animated bounceInUp" alt="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcuAAAAJGQzMjRiMzA1LTJkODUtNDQ0Yy04NjhiLTM0YWZlYzQ4MDExYg.jpg">
+<img src="headshot.jpg" class="img-circle profileBorder center-block animated bounceInUp" alt="https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAcuAAAAJGQzMjRiMzA1LTJkODUtNDQ0Yy04NjhiLTM0YWZlYzQ4MDExYg.jpg">
 
 <div class="text-center animated bounceInLeft " id="caption">
     <p>
@@ -77,7 +78,7 @@
     <p class="text-left animated BounceInRIght">
         Pursued B.S in Computer Science at: <br>
         Fall 2012 - Spring 2014 Deanza College <br>
-        Fall 2014 - Fall 2016 University of California, Davis
+        Fall 2014 - ???? 2017 University of California, Davis
     </p>
 </div>
 <!---- About me End -->
@@ -85,10 +86,11 @@
 <button class="btn btn-lg btn-info btn-block animated bounceInRight" onclick="toggleDiv('projects')">Projects</button>
 <div id="projects" style="display: none">
     <h2 class="text-left">
-        Tatics2.0 dqwd qwgvwqgevdwvqhbqwhebhwjqbdqhwjbdwkjdkjqwejkqwejknwqekjnqwkje
+        Tatics2.0
     </h2>
     <p class="text-left animated BounceInRIght">
-
+    <img class="projectImg img-rounded" src="tatix/taicsOnPhone.png" alt="phone dis play of the game"> <img class="projectImg img-rounded" src="tatix/taticsGif.gif"> <br>
+        Tatics2.0 was inspired by clasic tile based rpgs like
     </p>
 </div>
 <!---- Projects End -->
@@ -109,8 +111,9 @@
 <!-- Contact me -->
 <button class="btn btn-lg btn-warning btn-block animated bounceInRight" onclick="toggleDiv('contact')">Contact Me</button>
 <div id="contact" style="display: none">
-    <h2 class="text-left">
-        Tatics2.0 dqwd qwgvwqgevdwvqhbqwhebhwjqbdqhwjbdwkjdkjqwejkqwejknwqekjnqwkje
+    <h2 style="font-family: Cabin" class="text-left animated BounceInRight">
+        Email: <a href="mailto:Long.p.hoang1@gmail.com"> Long.p.hoang1@gmail.com</a> <br>
+        Linkedin: <a href="https://www.linkedin.com/in/long-hoang-76ba2b8b?trk=nav_responsive_tab_profile_pic">link</a>
     </h2>
     <p class="text-left animated BounceInRIght">
 
@@ -123,9 +126,8 @@
 <button class="btn btn-danger btn-lg btn-block animated bounceInRight" onclick="toggleDiv('etc')">etc</button>
 <div id="etc" style="display: none">
     <h2 class="text-left">
-        Tatics2.0 dqwd qwgvwqgevdwvqhbqwhebhwjqbdqhwjbdwkjdkjqwejkqwejknwqekjnqwkje
     </h2>
-    <p class="text-left animated BounceInRIght">
+    <p class="text-left animated BounceInRight">
 
     </p>
 </div>
