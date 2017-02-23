@@ -1,6 +1,4 @@
-/**
- * Created by long on 2/23/2017.
- */
+
 /**
  * Created by long on 2/22/2017.
  */
